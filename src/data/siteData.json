@@ -1,0 +1,308 @@
+{
+    "sectionOrder": [
+        "hero",
+        "envelopeModal",
+        "scratchReveal",
+        "events",
+        "gallery",
+        "countdown",
+        "venue",
+        "footer"
+    ],
+    "hero": {
+        "id": "home",
+        "title": "Subha Labha",
+        "couple": {
+            "groom": {
+                "name": "Raja Maharana",
+                "title": "The Royal Groom",
+                "family": "Son of Mrs. Sunita & Mr. Jagannath Maharana",
+                "bio": "An architect of dreams with an artist's soul, captivated by heritage, poetry, and a passion for crafting stories that stand the test of time.",
+                "image": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1000&auto=format&fit=crop"
+            },
+            "bride": {
+                "name": "Rani Sharma",
+                "title": "The Radiant Bride",
+                "family": "Daughter of Mrs. Vandana & Mr. Rajesh Sharma",
+                "bio": "A soul full of laughter, grace, and compassion, who fills every moment with warmth, elegance, and the sweetest melodies of life.",
+                "image": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1000&auto=format&fit=crop"
+            }
+        },
+        "backgroundImages": {
+            "heroDesktop": "/hero-desktop.png",
+            "heroMobile": "/backgroundhero.png"
+        },
+        "sceneAssets": [
+            {
+                "id": "peacock-1",
+                "src": "/peacock.png",
+                "alt": "Peacock"
+            },
+            {
+                "id": "banana-leaf-left",
+                "src": "/bananatree.png",
+                "alt": "Banana leaf left"
+            },
+            {
+                "id": "banana-leaf-right",
+                "src": "/bananatree2.png",
+                "alt": "Banana leaf right"
+            }
+        ]
+    },
+    "envelopeModal": {
+        "videoSources": {
+            "desktop": "https://res.cloudinary.com/n0c7bqpd/video/upload/v1784792471/Envelope_opening_animation_202607231310_online-video-cutter.com_qdgl1v.mp4",
+            "mobile": "https://res.cloudinary.com/n0c7bqpd/video/upload/v1784791952/Envelope_opening_animation_202607231301_online-video-cutter.com_pzifuj.mp4"
+        },
+        "description": "Animated envelope opening video shown when the site loads."
+    },
+    "scratchReveal": {
+        "sectionTitle": "Secret Wedding Date",
+        "subtitle": "Scratch the royal golden card below to reveal the auspicious muhurat and wedding date!",
+        "reveal": {
+            "formattedDate": "Saturday, December 12, 2026",
+            "muhuratTime": "Godhuli Bela (06:30 PM)",
+            "venueName": "The Grand City Palace Resort"
+        }
+    },
+    "events": {
+        "sectionHeadline": "Wedding Ceremonies & Events",
+        "sectionTag": "॥ मांगलिक कार्यक्रम ॥",
+        "sectionDescription": "Join us in the sacred rituals, vibrant music, and joyous feasts celebrating our union.",
+        "items": [
+            {
+                "id": "haldi",
+                "title": "Haldi Ceremony",
+                "hindiTitle": "हल्दी समारोह",
+                "date": "Friday, Dec 11, 2026",
+                "time": "10:00 AM Onwards",
+                "venue": "Mayur Chowk Courtyard, Palace Gardens",
+                "description": "A joyful morning bathed in golden turmeric pastes, auspicious songs, and floral shower blessings as we prepare for the sacred union.",
+                "dressCode": "Sunshine Yellow / Traditional Ethnic",
+                "iconName": "Sun",
+                "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=1000&auto=format&fit=crop",
+                "themeColor": "from-amber-500/20 to-yellow-600/30",
+                "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Haldi+Ceremony+-+Raja+%26+Rani&dates=20261211T043000Z/20261211T083000Z&details=Haldi+Ceremony+for+Raja+and+Rani's+Wedding&location=City+Palace+Udaipur"
+            },
+            {
+                "id": "mehendi",
+                "title": "Mehendi Night",
+                "hindiTitle": "मेहंदी की रात",
+                "date": "Friday, Dec 11, 2026",
+                "time": "04:00 PM Onwards",
+                "venue": "Royal Lakeside Pavilion",
+                "description": "Intricate henna artwork painted with love, fragrant jasmine, live folk tunes, and colorful bangles under the glittering evening lights.",
+                "dressCode": "Festive Emerald Green & Fuchsia",
+                "iconName": "Sparkles",
+                "image": "https://images.unsplash.com/photo-1544077960-604201fe74bc?q=80&w=1000&auto=format&fit=crop",
+                "themeColor": "from-emerald-600/20 to-teal-700/30",
+                "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Mehendi+Night+-+Raja+%26+Rani&dates=20261211T103000Z/20261211T160000Z&details=Mehendi+Night+for+Raja+and+Rani's+Wedding&location=City+Palace+Udaipur"
+            },
+            {
+                "id": "sangeet",
+                "title": "Sangeet & Cocktail",
+                "hindiTitle": "संगीत और संध्या",
+                "date": "Friday, Dec 11, 2026",
+                "time": "08:00 PM Onwards",
+                "venue": "The Heritage Ball Room",
+                "description": "A night of electrifying dance performances, family celebrations, musical symphony, and laughter toasted under shimmering chandeliers.",
+                "dressCode": "Glamorous Ethnic / Indo-Western Couture",
+                "iconName": "Music",
+                "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1000&auto=format&fit=crop",
+                "themeColor": "from-purple-600/20 to-indigo-900/30",
+                "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sangeet+%26+Cocktail+-+Raja+%26+Rani&dates=20261211T143000Z/20261211T190000Z&details=Sangeet+and+Cocktail+for+Raja+and+Rani's+Wedding&location=City+Palace+Udaipur"
+            },
+            {
+                "id": "wedding",
+                "title": "Shubh Vivaah (Main Wedding)",
+                "hindiTitle": "शुभ विवाह",
+                "date": "Saturday, Dec 12, 2026",
+                "time": "06:30 PM (Godhuli Muhurat)",
+                "venue": "The Central Mandap Lawn",
+                "description": "The royal Baraat procession, Varmala garland exchange, and the sacred Saptapadi (seven vows around the holy fire) under a canopy of marigolds.",
+                "dressCode": "Royal Traditional Indian Attire (Red, Maroon, Gold)",
+                "iconName": "HeartHandshake",
+                "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1000&auto=format&fit=crop",
+                "themeColor": "from-red-600/20 to-amber-700/30",
+                "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Shubh+Vivaah+-+Raja+%26+Rani&dates=20261212T130000Z/20261212T190000Z&details=The+Main+Wedding+Ceremony+for+Raja+and+Rani&location=City+Palace+Udaipur"
+            },
+            {
+                "id": "relatives-dining",
+                "title": "Relatives Meal Time",
+                "hindiTitle": "परिवारिक भोजन समय",
+                "date": "Saturday, Dec 12, 2026",
+                "time": "09:00 PM Onwards",
+                "venue": "Grand Dining Hall, Palace Grounds",
+                "description": "A warm gathering for all relatives to enjoy a royal feast together, sharing laughter, blessings, and delicious traditional cuisine.",
+                "dressCode": "Comfortable Festive Attire",
+                "iconName": "Wine",
+                "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1000&auto=format&fit=crop",
+                "themeColor": "from-amber-600/20 to-yellow-800/30",
+                "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Relatives+Meal+Time+-+Raja+%26+Rani&dates=20261212T150000Z/20261212T190000Z&details=Relatives+Meal+Time+for+Raja+and+Rani's+Wedding&location=Grand+Dining+Hall"
+            },
+            {
+                "id": "reception",
+                "title": "Grand Royal Reception",
+                "hindiTitle": "शाही प्रतिभोज",
+                "date": "Sunday, Dec 13, 2026",
+                "time": "07:30 PM Onwards",
+                "venue": "The Imperial Palace Banquets",
+                "description": "An evening of royal dining, blessing the newlywed couple, photo opportunities, and heartfelt celebrations with esteemed family & friends.",
+                "dressCode": "Regal Evening Wear / Tuxedos & Lehengas",
+                "iconName": "Wine",
+                "image": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1000&auto=format&fit=crop",
+                "themeColor": "from-amber-600/20 to-yellow-800/30",
+                "googleCalendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Royal+Reception+-+Raja+%26+Rani&dates=20261213T140000Z/20261213T183000Z&details=Grand+Reception+for+Raja+and+Rani&location=City+Palace+Udaipur"
+            }
+        ]
+    },
+    "gallery": {
+        "sectionHeadline": "Royal Photo Gallery",
+        "sectionTag": "॥ चित्र वीथिका ॥",
+        "sectionDescription": "Glimpses of vibrant colors, traditional attire, and unforgettable celebration moments.",
+        "tabs": [
+            {
+                "id": "all",
+                "label": "All Photos",
+                "hindi": "सभी चित्र"
+            },
+            {
+                "id": "prewedding",
+                "label": "Pre-Wedding",
+                "hindi": "प्री-वेडिंग"
+            },
+            {
+                "id": "rituals",
+                "label": "Rituals & Functions",
+                "hindi": "संस्कार एवं कार्यक्रम"
+            },
+            {
+                "id": "decor",
+                "label": "Decor & Mandap",
+                "hindi": "सजावट एवं मंडप"
+            }
+        ],
+        "images": [
+            {
+                "id": "g1",
+                "title": "Royal Bride Elegance",
+                "category": "rituals",
+                "imageUrl": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1000&auto=format&fit=crop",
+                "aspectRatio": "aspect-[3/4]"
+            },
+            {
+                "id": "g2",
+                "title": "Grand Palace Portrait",
+                "category": "decor",
+                "imageUrl": "/palace.jpg",
+                "aspectRatio": "aspect-[3/4]"
+            },
+            {
+                "id": "g3",
+                "title": "Sunshine Haldi Blessings",
+                "category": "rituals",
+                "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=1000&auto=format&fit=crop",
+                "aspectRatio": "aspect-[3/4]"
+            },
+            {
+                "id": "g4",
+                "title": "Grand Palace Portrait",
+                "category": "prewedding",
+                "imageUrl": "/palace.jpg",
+                "aspectRatio": "aspect-[3/4]"
+            },
+            {
+                "id": "g5",
+                "title": "Intricate Henna Henna Art",
+                "category": "rituals",
+                "imageUrl": "https://images.unsplash.com/photo-1544077960-604201fe74bc?q=80&w=1000&auto=format&fit=crop",
+                "aspectRatio": "aspect-[3/4]"
+            },
+            {
+                "id": "g6",
+                "title": "Grand Palace Portrait",
+                "category": "decor",
+                "imageUrl": "/palace.jpg",
+                "aspectRatio": "aspect-[3/4]"
+            },
+            {
+                "id": "g7",
+                "title": "Groom in Royal Sherwani",
+                "category": "rituals",
+                "imageUrl": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1000&auto=format&fit=crop",
+                "aspectRatio": "aspect-[3/4]"
+            },
+            {
+                "id": "g8",
+                "title": "Grand Palace Portrait",
+                "category": "prewedding",
+                "imageUrl": "/palace.jpg",
+                "aspectRatio": "aspect-[3/4]"
+            },
+            {
+                "id": "g9",
+                "title": "Tradition Diyas & Candles",
+                "category": "decor",
+                "imageUrl": "https://images.unsplash.com/photo-1609151162377-794faf68b02f?q=80&w=1000&auto=format&fit=crop",
+                "aspectRatio": "aspect-[3/4]"
+            }
+        ]
+    },
+    "countdown": {
+        "sectionHeadline": "Counting Down to the Muhurat",
+        "sectionTag": "॥ शुभ मुहूर्त ॥",
+        "subtitle": "Saturday, December 12, 2026 — Godhuli Bela (06:30 PM)",
+        "timeLabels": [
+            {
+                "label": "Days",
+                "hindiLabel": "दिन"
+            },
+            {
+                "label": "Hours",
+                "hindiLabel": "घंटे"
+            },
+            {
+                "label": "Minutes",
+                "hindiLabel": "मिनट"
+            },
+            {
+                "label": "Seconds",
+                "hindiLabel": "सेकंड"
+            }
+        ],
+        "blessing": "सप्तपदी भव: — May seven steps unite us forever in love"
+    },
+    "venue": {
+        "sectionHeadline": "Royal Venue & Location",
+        "sectionTag": "॥ विवाह स्थल ॥",
+        "sectionDescription": "Experience royal hospitality at the majestic City Palace on the serene banks of Lake Pichola.",
+        "venueDetails": {
+            "name": "The Grand City Palace Resort",
+            "location": "Lake Pichola, Udaipur, Rajasthan, India",
+            "image": "/palace.jpg",
+            "weddingDate": "Dec 12, 2026",
+            "muhuratTime": "06:30 PM Onwards",
+            "googleMapsUrl": "https://maps.google.com/?q=The+City+Palace+Udaipur+Rajasthan"
+        },
+        "travel": {
+            "airport": "Maharana Pratap Airport (Udaipur - UDR) is 24 km from the venue.",
+            "description": "Pickup shuttles will be coordinated for outstation guests upon request."
+        },
+        "stay": {
+            "title": "Royal Accommodation",
+            "description": "Luxury suite arrangements have been reserved at Palace Wings for our guests. Please confirm RSVP early for personalized room allocation."
+        },
+        "guestHelp": {
+            "title": "Guest Help Desk",
+            "phone": "+91 98765 43210",
+            "email": "wedding@rajan-and-rani.com"
+        }
+    },
+    "footer": {
+        "quote": "With love in our hearts and joy in our souls, we invite you to be part of our beautiful beginning.",
+        "closing": "With Best Compliments From Maharana & Sharma Families, Relatives, and Friends",
+        "copyright": "© 2026 Raja & Rani's Shubh Vivaah. All Rights Reserved.",
+        "craftedBy": "Tekkzy — AI-Powered Intelligent Cloud Solutions"
+    }
+}
